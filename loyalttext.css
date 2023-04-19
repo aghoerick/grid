@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    /* color: white; */
+    padding: 20px; 
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+
+.big {
+    display: grid;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    /* width: 40%; */
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    grid-column: 1/3;
+}
+
+.go {
+    color: hsl(0, 0%, 81%);
+}
+
+.eric {
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+
+.mee {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.fed {
+    color: hsl(0, 0%, 81%);
+}
+
+.small {
+    display: grid;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    /* width: 40%; */
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* grid-column: 1/2; */
+} 
+
+.pee{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.till{
+    color:hsl(0, 0%, 81%);
+}
+
+
+
+.me {
+    color: hsl(0, 0%, 81%);
+}
+
+
+
+.be {
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+
+.wide {
+    display: grid;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    /* width: 40%; */
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    /* column-span: 2; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    grid-row: 2;
+}
+.kam{
+    color: hsla(0, 0%, 6%, 0.582);
+
+}
+.tutu{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tu{
+    color: hsla(0, 0%, 6%, 0.582);
+}
+
+/* .lme{
+    display: grid;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    column-span: 2;
+} */
+
+.dee{
+    display: flex;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+
+.he{
+    display: grid;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    /* width: 40%; */
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    column-span: 2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    grid-column:2/4;
+    grid-row: 2/3;
+}
+.tam{
+    color: hsl(0, 0%, 81%);
+}
+
+.tick{
+    display: grid;
+    background-color: white;
+    color: black;
+    /* width: 40%; */
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    column-span: 2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    grid-row: 4/-2;
+}
+
+.feed{
+    color: hsla(0, 0%, 6%, 0.582);
+}
+
+.gee{
+    color: hsla(0, 0%, 6%, 0.582);
+
+}
+
+.am{
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+
+.to{
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+.zee{
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+
+.cee{
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+.ill{
+    display: flex;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50px 200px; 
+}  
+
+.container:nth-of-type(1){
+    /* grid-column: 1 / 3; */
+}
+
+@media(max-width: 800px){
+    .container{
+        grid-template-columns: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .big{
+        grid-column: 0;
+    }
+    .wide{
+        grid-row: 0;
+    }
+    .he{
+        grid-row: 0;
+        grid-column: 0;
+    }
+    .tick{
+        grid-row: 0;
+    } */
+}
